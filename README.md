@@ -60,3 +60,6 @@ Vault tracking CDs I own and their Open Scrobbler pages
 
 #### Wage War
 - [Stigma](https://openscrobbler.com/scrobble/album/view/mbid/176d7554-1e42-4da8-83ea-f0f7a204483f) (2024)
+
+#### Wargasm
+- [Venom](https://openscrobbler.com/scrobble/album/view/mbid/a872513e-eef2-40e8-9224-55142c71f703) (2023)
