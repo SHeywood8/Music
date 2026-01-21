@@ -4,11 +4,11 @@ Vault tracking CDs I own and their Open Scrobbler pages
 ## Metalcore
 
 #### Architects
-  [Lost Forever // Lost Together](https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd) (2014)
-  [Holy Hell](https://openscrobbler.com/scrobble/album/view/mbid/516683e9-5f62-4ad4-a0e0-527717756c29) (2018)
-  [For Those That Wish to Exist](https://openscrobbler.com/scrobble/album/view/mbid/669590fc-e87c-43ce-b06d-3459075413a4) (2021)
-  [The Classic Symptoms of a Broken Spirit](https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619) (2022)
-  [The Sky, The Earth & All Between](https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe) (2025)
+- [Lost Forever // Lost Together](https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd) (2014)
+- [Holy Hell](https://openscrobbler.com/scrobble/album/view/mbid/516683e9-5f62-4ad4-a0e0-527717756c29) (2018)
+- [For Those That Wish to Exist](https://openscrobbler.com/scrobble/album/view/mbid/669590fc-e87c-43ce-b06d-3459075413a4) (2021)
+- [The Classic Symptoms of a Broken Spirit](https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619) (2022)
+- [The Sky, The Earth & All Between](https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe) (2025)
 
 
 #### Bad Omens
