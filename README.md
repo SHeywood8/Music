@@ -2,19 +2,20 @@
 Vault tracking CDs I own and their Open Scrobbler pages
 
 ## Metalcore
-
-#### Architects
-- [Lost Forever // Lost Together](https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd) (2014)
-- [Holy Hell](https://openscrobbler.com/scrobble/album/view/mbid/516683e9-5f62-4ad4-a0e0-527717756c29) (2018)
-- [For Those That Wish to Exist](https://openscrobbler.com/scrobble/album/view/mbid/669590fc-e87c-43ce-b06d-3459075413a4) (2021)
-- [The Classic Symptoms of a Broken Spirit](https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619) (2022)
-- [The Sky, The Earth & All Between](https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe) (2025)
-
-
-#### Bad Omens
-- [Bad Omens](https://openscrobbler.com/scrobble/album/view/mbid/015792e3-36cd-494f-aef3-317d178c8414) (2016)
-- [Finding God Before God Finds Me](https://openscrobbler.com/scrobble/album/view/mbid/66adee9c-64a1-45bd-b037-1140190e768f) (2019)
-- [The Death of Peace of Mind](https://openscrobbler.com/scrobble/album/view/mbid/dd144a37-f8e3-4e14-aeda-83fbaba90f17) (2022)
+<details><summary>Architects</summary>
+<ul>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd">Lost Forever // Lost Together</a> (2014)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/516683e9-5f62-4ad4-a0e0-527717756c29">Holy Hell</a> (2018)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/669590fc-e87c-43ce-b06d-3459075413a4">For Those That Wish to Exist</a> (2021)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619">The Classic Symptoms of a Broken Spirit</a> (2022)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe">The Sky, The Earth & All Between</a> (2025)</li>
+</ul></details>
+<details><summary>Bad Omens</summary>
+<ul>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/015792e3-36cd-494f-aef3-317d178c8414">Bad Omens</a> (2016)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/66adee9c-64a1-45bd-b037-1140190e768f">Finding God Before God Finds Me</a> (2019)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dd144a37-f8e3-4e14-aeda-83fbaba90f17">The Death of Peace of Mind</a> (2022)</li>
+</ul></details>
 
 #### Beartooth
 - [Disgusting](https://openscrobbler.com/scrobble/album/view/dsid/751852) (2014)
