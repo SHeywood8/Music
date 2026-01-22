@@ -171,7 +171,3 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/176d7554-1e42-4da8-83ea-f0f7a204483f">Stigma</a> (2024)</li>
 </ul></details>
-<details><summary>Wargasm</summary>
-<ul>
-<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/a872513e-eef2-40e8-9224-55142c71f703">Venom</a> (2023)</li>
-</ul></details>
