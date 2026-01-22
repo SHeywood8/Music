@@ -16,6 +16,8 @@ def json_to_dict(filepath):
 
 def get_album_info():
     artist_name = input("Artist Name: ")
+    if artist_name.lower() in ["esc", "escape", "end"]:
+        return None
     album_name = input("Album Name: ")
     while True:
         release_year = input("Year of Release: ")
@@ -49,9 +51,13 @@ def update_readme():
         album_html = f'<details><summary>{album_artist}</summary>\n<ul>\n'
         artist_albums = list(album_dict[album_artist].keys())
         artist_albums.sort()
+        artist_albums_tuples = []
         for artist_album in artist_albums:
-            print(artist_album)
-            album_html += f'<li><a href="{album_dict[album_artist][artist_album]['link']}">{artist_album}</a> ({album_dict[album_artist][artist_album]['year']})</li>\n'
+            album_tuple = [artist_album, album_dict[album_artist][artist_album]['year'], album_dict[album_artist][artist_album]['link']]
+            artist_albums_tuples.append(album_tuple)
+        artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
+        for tuple in artist_albums_tuples:
+            album_html += f'<li><a href="{tuple[2]}">{tuple[0]}</a> ({tuple[1]})</li>\n'
         album_html += '</ul></details>\n'
         html_albums += album_html
     with open('README.md', 'w') as f:
@@ -65,13 +71,24 @@ def main():
         match content.lower():
             case "help" | "?":
                 print("""add - Add an album.
+ba, bulkadd - Add multiple albums back to back.
 rm, remove - Remove an album.
 up, update - Update 'README.md' with all newly added albums.
 cl, clear - Wipe added albums.
 end - Exit this program.
 Help, ? - show this list.""")
             case "add":
-                add_album_to_dict(get_album_info())
+                album_info = get_album_info()
+                if album_info == None:
+                    break
+                add_album_to_dict(album_info)
+            case "ba" | "bulkadd":
+                print("Now bulk adding albums. Type 'esc' or 'Escape' to cancel.")
+                while True:
+                    album_info = get_album_info()
+                    if album_info == None:
+                        break
+                    add_album_to_dict(album_info)
             case "rm":
                 print("'Remove' function not yet added.")
             case "end":
