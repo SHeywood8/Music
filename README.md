@@ -136,11 +136,6 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Shinedown/Planet%20Zero">Planet Zero</a> (2022)</li>
 </ul></details>
-<details><summary>Sisters of Mercy</summary>
-<ul>
-<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Some Girls Wander by Mistake</a> (1992)</li>
-<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Greatest Hits Volume One</a> (2018)</li>
-</ul></details>
 <details><summary>Skid Row</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/94193">Skid Row</a> (1989)</li>
@@ -162,6 +157,8 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Floodland</a> (1987)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">First and Last and Always</a> (1988)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Vision Thing</a> (1990)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Some Girls Wander by Mistake</a> (1992)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Greatest Hits Volume One</a> (2018)</li>
 </ul></details>
 <details><summary>WARGASM (UK)</summary>
 <ul>
