@@ -1,5 +1,9 @@
 <h1>Music</h1>
 
+<details><summary>Arch Enemy</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/695202">War Eternal</a> (2014)</li>
+</ul></details>
 <details><summary>Architects</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd">Lost Forever // Lost Together</a> (2014)</li>

@@ -73,6 +73,7 @@ def main():
                 print("""add - Add an album.
 ba, bulkadd - Add multiple albums back to back.
 rm, remove - Remove an album.
+ed, edit - Edit an existing album.
 up, update - Update 'README.md' with all newly added albums.
 cl, clear - Wipe added albums.
 end - Exit this program.
@@ -89,8 +90,10 @@ Help, ? - show this list.""")
                     if album_info == None:
                         break
                     add_album_to_dict(album_info)
-            case "rm":
+            case "rm" | "remove":
                 print("'Remove' function not yet added.")
+            case "ed" | "edit":
+                print("'Edit' function not yet added.")
             case "end":
                 return
             case "up" | "update":
