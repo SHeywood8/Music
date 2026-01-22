@@ -1,3 +1,5 @@
+<h1>Music</h1>
+
 <details><summary>Architects</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd">Lost Forever // Lost Together</a> (2014)</li>

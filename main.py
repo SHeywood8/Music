@@ -44,7 +44,7 @@ def add_album_to_dict(album_info):
 
 def update_readme():
     album_dict = json_to_dict('albums.json')
-    html_albums = ''
+    html_albums = '<h1>Music</h1>\n\n'
     album_artists = list(album_dict.keys())
     album_artists.sort()
     for album_artist in album_artists:
