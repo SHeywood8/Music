@@ -10,6 +10,7 @@ Vault tracking CDs I own and their Open Scrobbler pages
   <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619">The Classic Symptoms of a Broken Spirit</a> (2022)</li>
   <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe">The Sky, The Earth & All Between</a> (2025)</li>
 </ul></details>
+
 <details><summary>Bad Omens</summary>
 <ul>
   <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/015792e3-36cd-494f-aef3-317d178c8414">Bad Omens</a> (2016)</li>
@@ -17,20 +18,32 @@ Vault tracking CDs I own and their Open Scrobbler pages
   <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dd144a37-f8e3-4e14-aeda-83fbaba90f17">The Death of Peace of Mind</a> (2022)</li>
 </ul></details>
 
-#### Beartooth
-- [Disgusting](https://openscrobbler.com/scrobble/album/view/dsid/751852) (2014)
+<details><summary>Beartooth</summary>
+<ul>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/751852">Disgusting</a> (2014)</li>
+</ul>
+</details>
 
-#### Bring Me The Horizon
-- [Sempiternal](https://openscrobbler.com/scrobble/album/view/mbid/1637ac31-0dde-4552-8701-269d5d6730e1) (2013)
+<details><summary>Bring Me The Horizon</summary>
+<ul>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/1637ac31-0dde-4552-8701-269d5d6730e1">Sempiternal</a> (2013)</li>
+</ul>
+</details>
 
-#### Bullet for My Valentine
-- [The Poison](https://openscrobbler.com/scrobble/album/view/mbid/04cf4df1-2b10-4b9c-a130-64587d18aeb0) (2005)
-- [Scream Aim Fire](https://openscrobbler.com/scrobble/album/view/mbid/0b29ccc7-7399-4f56-a093-77a8e159f334) (2008)
-- [Fever](https://openscrobbler.com/scrobble/album/view/mbid/21df3684-f52e-44f9-b948-5984ce48827f) (2010)
-- [Gravity](https://openscrobbler.com/scrobble/album/view/mbid/0b29ccc7-7399-4f56-a093-77a8e159f334) (2018)
+<details><summary>Bullet For My Valentine</summary>
+<ul>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/04cf4df1-2b10-4b9c-a130-64587d18aeb0">The Poison</a> (2005)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0b29ccc7-7399-4f56-a093-77a8e159f334">Scream Aim Fire</a> (2008)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/21df3684-f52e-44f9-b948-5984ce48827f">Fever</a> (2010)</li>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0b29ccc7-7399-4f56-a093-77a8e159f334">Gravity</a> (2018)</li>
+</ul>
+</details>
 
-#### Catch Your Breath
-- [Shame on Me](https://openscrobbler.com/scrobble/album/view/dsid/3318223) (2022)
+<details><summary>Catch Your Breath</summary>
+<ul>
+  <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3318223">Shame On Me</a> (2022)</li>
+</ul>
+</details>
 
 #### Conquer Divide
 - [Slow Burn](https://openscrobbler.com/scrobble/album/view/mbid/3e4eaeb0-d406-4c2b-885a-dfb487f06624) (2023)
@@ -65,3 +78,9 @@ Vault tracking CDs I own and their Open Scrobbler pages
 
 #### Wargasm
 - [Venom](https://openscrobbler.com/scrobble/album/view/mbid/a872513e-eef2-40e8-9224-55142c71f703) (2023)
+
+<details><summary></summary>
+<ul>
+  <li><a href=""></a> ()</li>
+</ul>
+</details>
