@@ -37,7 +37,43 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3e4eaeb0-d406-4c2b-885a-dfb487f06624">Slow Burn</a> (2023)</li>
 </ul></details>
+<details><summary>Electric Callboy</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Electric%20Callboy/Tekkno%20(Tour%20Edition)">Tekkno</a> (2023)</li>
+</ul></details>
+<details><summary>Ghostkid</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3433472">Hollywood Suicide</a> (2024)</li>
+</ul></details>
+<details><summary>I Prevail</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/11d60667-69ee-4d25-ba4f-5fb452ef3b8b">Lifelines</a> (2016)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/I%20Prevail/True%20Power">True Power</a> (2022)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3976559">Violent Nature</a> (2025)</li>
+</ul></details>
+<details><summary>IMMERSE</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/83d4f671-57d6-4110-a8db-394f13298dee">The Weight That Holds Me Here</a> (2021)</li>
+</ul></details>
+<details><summary>Memphis May Fire</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3797772">Shapeshifter</a> (2025)</li>
+</ul></details>
+<details><summary>Motionless in White</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/7b9831bd-8511-43a9-b09b-4fefe57075ec">Graveyard Shift</a> (2017)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/29d200a8-8749-4e82-8f63-d4faf7c4a1e5">Disguise</a> (2019)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Motionless%20in%20White/Scoring%20the%20End%20of%20the%20World">Scoring the End of the World</a> (2022)</li>
+</ul></details>
+<details><summary>Of Virtue</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/bd937f9e-e365-4367-922d-f7ace54749e9">Omen</a> (2023)</li>
+</ul></details>
 <details><summary>Wage War</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/176d7554-1e42-4da8-83ea-f0f7a204483f">Stigma</a> (2024)</li>
+</ul></details>
+<details><summary>Wargasm</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/a872513e-eef2-40e8-9224-55142c71f703">Venom</a> (2023)</li>
 </ul></details>
