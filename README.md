@@ -22,6 +22,19 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/751852">Disgusting</a> (2014)</li>
 </ul></details>
+<details><summary>Black Sabbath</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/5754">Greatest Hits</a> (1986)</li>
+</ul></details>
+<details><summary>Black Veil Brides</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/87c49f84-d375-4734-8696-f4b5dffd107c">We Stitch These Wounds</a> (2010)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0f1e51f6-891d-4284-b3b5-003ffc9ac110">Set the World on Fire</a> (2011)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/39dcebcd-425c-4fa5-b6c9-32d14f896230">Wretched And Divine: The Story Of The Wild Ones</a> (2013)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/479a71e8-54e5-4d6b-a728-c16790088282">Black Veil Brides</a> (2014)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/5b94224d-1a9e-4615-b644-804f23713719">Vale</a> (2018)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/b60f7053-c88f-4386-a70c-6cd7698dccd9">The Phantom Tomorrow</a> (2021)</li>
+</ul></details>
 <details><summary>Bring Me The Horizon</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/1637ac31-0dde-4552-8701-269d5d6730e1">Sempiternal</a> (2014)</li>
@@ -45,6 +58,18 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Electric%20Callboy/Tekkno%20(Tour%20Edition)">Tekkno</a> (2023)</li>
 </ul></details>
+<details><summary>Evanescence</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/11035">Fallen</a> (2003)</li>
+</ul></details>
+<details><summary>Fall Out Boy</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Infinity%20On%20High%20(Deluxe%20Edition)">Infinity on High</a> (2007)</li>
+</ul></details>
+<details><summary>Femtanyl</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3264772">Chaser</a> (2023)</li>
+</ul></details>
 <details><summary>Ghostkid</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3433472">Hollywood Suicide</a> (2024)</li>
@@ -59,6 +84,26 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/83d4f671-57d6-4110-a8db-394f13298dee">The Weight That Holds Me Here</a> (2021)</li>
 </ul></details>
+<details><summary>In Flames</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1088350">Battles</a> (2016)</li>
+</ul></details>
+<details><summary>K-Pop Demon Hunters</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3925902">K-Pop Demon Hunters OST</a> (2025)</li>
+</ul></details>
+<details><summary>Katatonia</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2946598">Sky Void of Stars</a> (2023)</li>
+</ul></details>
+<details><summary>Linkin Park</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/fa0eeed8-1ca7-46ff-af31-2169dc29f3e1">From Zero</a> (2024)</li>
+</ul></details>
+<details><summary>LØLØ</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/L%C3%98L%C3%98/Debbie%20Downer%20x%20Overkill">debbie downer x overkill</a> (2023)</li>
+</ul></details>
 <details><summary>Memphis May Fire</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3797772">Shapeshifter</a> (2025)</li>
@@ -69,9 +114,58 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/29d200a8-8749-4e82-8f63-d4faf7c4a1e5">Disguise</a> (2019)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Motionless%20in%20White/Scoring%20the%20End%20of%20the%20World">Scoring the End of the World</a> (2022)</li>
 </ul></details>
+<details><summary>My Chemical Romance</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0d7934da-7d3c-4cd6-9032-daf481026c45">Three Cheers for Sweet Revenge</a> (2004)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/16eb8908-7d05-48b9-af7f-cb017302482a">The Black Parade</a> (2006)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0e3281b0-7686-41d9-8b1d-5228f8edcce7">Danger Days: The True Lives of the Fabulous Killjoys</a> (2010)</li>
+</ul></details>
 <details><summary>Of Virtue</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/bd937f9e-e365-4367-922d-f7ace54749e9">Omen</a> (2023)</li>
+</ul></details>
+<details><summary>Ramones</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3de12d3b-5004-370c-9d8e-aea99ceaf4c3">Greatest Hits</a> (2006)</li>
+</ul></details>
+<details><summary>RØRY</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/R%C3%98RY/RESTORATION">RESTORATION</a> (2025)</li>
+</ul></details>
+<details><summary>Shinedown</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Shinedown/Planet%20Zero">Planet Zero</a> (2022)</li>
+</ul></details>
+<details><summary>Sisters of Mercy</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Some Girls Wander by Mistake</a> (1992)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Greatest Hits Volume One</a> (2018)</li>
+</ul></details>
+<details><summary>Skid Row</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/94193">Skid Row</a> (1989)</li>
+</ul></details>
+<details><summary>Taylor Acorn</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4046887">Poster Child</a> (2025)</li>
+</ul></details>
+<details><summary>The Libertines</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0e779906-e1b5-48af-8b91-fe813c933f39">The Libertines</a> (2004)</li>
+</ul></details>
+<details><summary>The Pretty Reckless</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/021e7ac3-0bf1-451f-8117-167039912e52">Going to Hell</a> (2014)</li>
+</ul></details>
+<details><summary>The Sisters of Mercy</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Floodland</a> (1987)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">First and Last and Always</a> (1988)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Vision Thing</a> (1990)</li>
+</ul></details>
+<details><summary>WARGASM (UK)</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/WARGASM%20(UK)/Venom">Venom</a> (2023)</li>
 </ul></details>
 <details><summary>Wage War</summary>
 <ul>
