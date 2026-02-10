@@ -37,7 +37,9 @@
 </ul></details>
 <details><summary>Bring Me The Horizon</summary>
 <ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Bring%20Me%20the%20Horizon/There%20Is%20A%20Hell%20Believe%20Me%20I've%20Seen%20It.%20There%20Is%20A%20Heaven%20Let's%20Keep%20It%20A%20Secret">There Is A Hell Believe Me Ive Seen It. There Is A Heaven Lets Keep It A Secret</a> (2010)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/1637ac31-0dde-4552-8701-269d5d6730e1">Sempiternal</a> (2014)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3607430">POST HUMAN: NeX GEn</a> (2024)</li>
 </ul></details>
 <details><summary>Bullet For My Valentine</summary>
 <ul>
