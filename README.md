@@ -1,5 +1,9 @@
 <h1>Music</h1>
 
+<details><summary>All Time Low</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/819661">Future Hearts</a> (2015)</li>
+</ul></details>
 <details><summary>Arch Enemy</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/695202">War Eternal</a> (2014)</li>
@@ -7,6 +11,7 @@
 <details><summary>Architects</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd">Lost Forever // Lost Together</a> (2014)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1005977">All Our Gods Have Abandoned Us</a> (2016)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/516683e9-5f62-4ad4-a0e0-527717756c29">Holy Hell</a> (2018)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/669590fc-e87c-43ce-b06d-3459075413a4">For Those That Wish to Exist</a> (2021)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619">The Classic Symptoms of a Broken Spirit</a> (2022)</li>
@@ -169,4 +174,8 @@
 <details><summary>Wage War</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/176d7554-1e42-4da8-83ea-f0f7a204483f">Stigma</a> (2024)</li>
+</ul></details>
+<details><summary>Waterparks</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1619637">Fandom</a> (2019)</li>
 </ul></details>
