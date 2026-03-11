@@ -72,6 +72,7 @@
 <details><summary>Fall Out Boy</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Infinity%20On%20High%20(Deluxe%20Edition)">Infinity on High</a> (2007)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Believers%20Never%20Die%20(Volume%20Two)">Believers Never Die (Volume Two)</a> (2019)</li>
 </ul></details>
 <details><summary>Femtanyl</summary>
 <ul>
