@@ -183,6 +183,14 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Some Girls Wander by Mistake</a> (1992)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Greatest Hits Volume One</a> (2018)</li>
 </ul></details>
+<details><summary>Various Artists (5)</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2932417">The Rock 'N' Roll Era: 1960</a> (1989)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/404000">The Rock 'N' Roll Era: 1955 - 1956</a> (1990)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1431363">Rock Legends</a> (1991)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-618779">Dark Side Of The 80s</a> (2003)</li>
+<li><a href="">Remastered: Metallica's Master Of Puppets Revisited</a> (2006)</li>
+</ul></details>
 <details><summary>WARGASM (UK)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/WARGASM%20(UK)/Venom">Venom</a> (2023)</li>
@@ -201,4 +209,4 @@
 </ul></details>
 
 
-<p>Total CDs: 73</p>
+<p>Total CDs: 78</p>
