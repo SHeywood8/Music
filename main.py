@@ -57,7 +57,10 @@ def update_readme():
         artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
         album_count = len(artist_albums_tuples)
 
-        album_html = f'<details><summary>{album_artist} ({album_count})</summary>\n<ul>\n'
+        album_html = f'<details><summary>{album_artist}'
+        if album_count > 1:
+            album_html += f'({album_count})'
+        album_html += '</summary>\n<ul>\n'
 
         for tuple in artist_albums_tuples:
             album_html += f'<li><a href="{tuple[2]}">{tuple[0]}</a> ({tuple[1]})</li>\n'
