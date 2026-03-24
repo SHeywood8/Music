@@ -8,7 +8,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/695202">War Eternal</a> (2014)</li>
 </ul></details>
-<details><summary>Architects(7)</summary>
+<details><summary>Architects (7)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Architects/The%20Here%20And%20Now">The Here And Now</a> (2011)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd">Lost Forever // Lost Together</a> (2014)</li>
@@ -18,7 +18,7 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619">The Classic Symptoms of a Broken Spirit</a> (2022)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe">The Sky, The Earth & All Between</a> (2025)</li>
 </ul></details>
-<details><summary>Bad Omens(3)</summary>
+<details><summary>Bad Omens (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/015792e3-36cd-494f-aef3-317d178c8414">Bad Omens</a> (2016)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/66adee9c-64a1-45bd-b037-1140190e768f">Finding God Before God Finds Me</a> (2019)</li>
@@ -32,7 +32,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/5754">Greatest Hits</a> (1986)</li>
 </ul></details>
-<details><summary>Black Veil Brides(6)</summary>
+<details><summary>Black Veil Brides (6)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/87c49f84-d375-4734-8696-f4b5dffd107c">We Stitch These Wounds</a> (2010)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0f1e51f6-891d-4284-b3b5-003ffc9ac110">Set the World on Fire</a> (2011)</li>
@@ -41,13 +41,13 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/5b94224d-1a9e-4615-b644-804f23713719">Vale</a> (2018)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/b60f7053-c88f-4386-a70c-6cd7698dccd9">The Phantom Tomorrow</a> (2021)</li>
 </ul></details>
-<details><summary>Bring Me The Horizon(3)</summary>
+<details><summary>Bring Me The Horizon (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Bring%20Me%20the%20Horizon/There%20Is%20A%20Hell%20Believe%20Me%20I've%20Seen%20It.%20There%20Is%20A%20Heaven%20Let's%20Keep%20It%20A%20Secret">There Is A Hell Believe Me Ive Seen It. There Is A Heaven Lets Keep It A Secret</a> (2010)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/1637ac31-0dde-4552-8701-269d5d6730e1">Sempiternal</a> (2014)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3607430">POST HUMAN: NeX GEn</a> (2024)</li>
 </ul></details>
-<details><summary>Bullet For My Valentine(4)</summary>
+<details><summary>Bullet For My Valentine (4)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/04cf4df1-2b10-4b9c-a130-64587d18aeb0">Poison</a> (2005)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0b29ccc7-7399-4f56-a093-77a8e159f334">Scream Aim Fire</a> (2008)</li>
@@ -70,7 +70,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/11035">Fallen</a> (2003)</li>
 </ul></details>
-<details><summary>Fall Out Boy(4)</summary>
+<details><summary>Fall Out Boy (4)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Infinity%20On%20High%20(Deluxe%20Edition)">Infinity on High</a> (2007)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/56227792-5344-41a0-ab74-ba7608b505eb">Save Rock And Roll</a> (2013)</li>
@@ -85,7 +85,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3433472">Hollywood Suicide</a> (2024)</li>
 </ul></details>
-<details><summary>I Prevail(3)</summary>
+<details><summary>I Prevail (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/11d60667-69ee-4d25-ba4f-5fb452ef3b8b">Lifelines</a> (2016)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/I%20Prevail/True%20Power">True Power</a> (2022)</li>
@@ -123,13 +123,13 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3797772">Shapeshifter</a> (2025)</li>
 </ul></details>
-<details><summary>Motionless in White(3)</summary>
+<details><summary>Motionless in White (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/7b9831bd-8511-43a9-b09b-4fefe57075ec">Graveyard Shift</a> (2017)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/29d200a8-8749-4e82-8f63-d4faf7c4a1e5">Disguise</a> (2019)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Motionless%20in%20White/Scoring%20the%20End%20of%20the%20World">Scoring the End of the World</a> (2022)</li>
 </ul></details>
-<details><summary>My Chemical Romance(3)</summary>
+<details><summary>My Chemical Romance (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0d7934da-7d3c-4cd6-9032-daf481026c45">Three Cheers for Sweet Revenge</a> (2004)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/16eb8908-7d05-48b9-af7f-cb017302482a">The Black Parade</a> (2006)</li>
@@ -175,7 +175,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/021e7ac3-0bf1-451f-8117-167039912e52">Going to Hell</a> (2014)</li>
 </ul></details>
-<details><summary>The Sisters of Mercy(5)</summary>
+<details><summary>The Sisters of Mercy (5)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">Floodland</a> (1987)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1415711">First and Last and Always</a> (1988)</li>

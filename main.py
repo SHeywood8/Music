@@ -59,7 +59,7 @@ def update_readme():
 
         album_html = f'<details><summary>{album_artist}'
         if album_count > 1:
-            album_html += f'({album_count})'
+            album_html += f' ({album_count})'
         album_html += '</summary>\n<ul>\n'
 
         for tuple in artist_albums_tuples:
