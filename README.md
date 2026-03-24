@@ -167,6 +167,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/94193">Skid Row</a> (1989)</li>
 </ul></details>
+<details><summary>Sleeping With Sirens</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2822978">Complete Collapse</a> (2022)</li>
+</ul></details>
 <details><summary>Taylor Acorn</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4046887">Poster Child</a> (2025)</li>
@@ -213,4 +217,4 @@
 </ul></details>
 
 
-<p>Total CDs: 79</p>
+<p>Total CDs: 80</p>
