@@ -139,6 +139,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/bd937f9e-e365-4367-922d-f7ace54749e9">Omen</a> (2023)</li>
 </ul></details>
+<details><summary>Omega</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2850904">The Progressive Eighties</a> (2015)</li>
+</ul></details>
 <details><summary>Panic! At The Disco</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3b118482-86a4-4858-a275-26b47b66f740">Death Of A Bachelor</a> (2016)</li>
@@ -209,4 +213,4 @@
 </ul></details>
 
 
-<p>Total CDs: 78</p>
+<p>Total CDs: 79</p>
