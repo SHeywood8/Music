@@ -10,6 +10,7 @@
 </ul></details>
 <details><summary>Architects</summary>
 <ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Architects/The%20Here%20And%20Now">The Here And Now</a> (2011)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c4f2390c-1cbd-4ce6-82eb-7e5f20f860bd">Lost Forever // Lost Together</a> (2014)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1005977">All Our Gods Have Abandoned Us</a> (2016)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/516683e9-5f62-4ad4-a0e0-527717756c29">Holy Hell</a> (2018)</li>
@@ -72,6 +73,8 @@
 <details><summary>Fall Out Boy</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Infinity%20On%20High%20(Deluxe%20Edition)">Infinity on High</a> (2007)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/56227792-5344-41a0-ab74-ba7608b505eb">Save Rock And Roll</a> (2013)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c5ba1f44-8480-4866-bd8d-951e10d232ea">Mania</a> (2017)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Believers%20Never%20Die%20(Volume%20Two)">Believers Never Die (Volume Two)</a> (2019)</li>
 </ul></details>
 <details><summary>Femtanyl</summary>
@@ -91,6 +94,10 @@
 <details><summary>IMMERSE</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/83d4f671-57d6-4110-a8db-394f13298dee">The Weight That Holds Me Here</a> (2021)</li>
+</ul></details>
+<details><summary>Imagine Dragons</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/10d8ba99-449a-45e8-88e8-2b1be0fd55a6">Night Visions</a> (2012)</li>
 </ul></details>
 <details><summary>In Flames</summary>
 <ul>
@@ -131,6 +138,14 @@
 <details><summary>Of Virtue</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/bd937f9e-e365-4367-922d-f7ace54749e9">Omen</a> (2023)</li>
+</ul></details>
+<details><summary>Panic! At The Disco</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3b118482-86a4-4858-a275-26b47b66f740">Death Of A Bachelor</a> (2016)</li>
+</ul></details>
+<details><summary>Paramore</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/04fb7d1f-7011-4253-8de6-a776fa6f80aa">RIOT!</a> (2007)</li>
 </ul></details>
 <details><summary>Ramones</summary>
 <ul>
@@ -179,4 +194,8 @@
 <details><summary>Waterparks</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1619637">Fandom</a> (2019)</li>
+</ul></details>
+<details><summary>Windwaker</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/Windwaker/Love%20Language">Love Language</a> (2022)</li>
 </ul></details>
