@@ -199,3 +199,6 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Windwaker/Love%20Language">Love Language</a> (2022)</li>
 </ul></details>
+
+
+<p>Total CDs: 73</p>

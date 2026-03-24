@@ -43,6 +43,8 @@ def add_album_to_dict(album_info):
     return
 
 def update_readme():
+    total_album_count = 0
+
     album_dict = json_to_dict('albums.json')
     html_albums = '<h1>Music</h1>\n\n'
     album_artists = list(album_dict.keys())
@@ -56,6 +58,7 @@ def update_readme():
             artist_albums_tuples.append(album_tuple)
         artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
         album_count = len(artist_albums_tuples)
+        total_album_count += album_count
 
         album_html = f'<details><summary>{album_artist}'
         if album_count > 1:
@@ -66,6 +69,7 @@ def update_readme():
             album_html += f'<li><a href="{tuple[2]}">{tuple[0]}</a> ({tuple[1]})</li>\n'
         album_html += '</ul></details>\n'
         html_albums += album_html
+    html_albums += f"\n\n<p>Total CDs: {total_album_count}</p>"
     with open('README.md', 'w') as f:
         f.write(html_albums)
         f.close()
