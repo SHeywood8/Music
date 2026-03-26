@@ -74,7 +74,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Infinity%20On%20High%20(Deluxe%20Edition)">Infinity on High</a> (2007)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/56227792-5344-41a0-ab74-ba7608b505eb">Save Rock And Roll</a> (2013)</li>
-<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/c5ba1f44-8480-4866-bd8d-951e10d232ea">Mania</a> (2017)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1300155">Mania</a> (2017)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Fall%20Out%20Boy/Believers%20Never%20Die%20(Volume%20Two)">Believers Never Die (Volume Two)</a> (2019)</li>
 </ul></details>
 <details><summary>Femtanyl</summary>
