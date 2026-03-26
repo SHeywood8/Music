@@ -133,7 +133,7 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0d7934da-7d3c-4cd6-9032-daf481026c45">Three Cheers for Sweet Revenge</a> (2004)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/16eb8908-7d05-48b9-af7f-cb017302482a">The Black Parade</a> (2006)</li>
-<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0e3281b0-7686-41d9-8b1d-5228f8edcce7">Danger Days: The True Lives of the Fabulous Killjoys</a> (2010)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/293832">Danger Days: The True Lives of the Fabulous Killjoys</a> (2010)</li>
 </ul></details>
 <details><summary>Of Virtue</summary>
 <ul>
