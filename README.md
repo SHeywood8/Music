@@ -18,6 +18,10 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dc33fdfb-1e00-4763-b001-e1bc70cf4619">The Classic Symptoms of a Broken Spirit</a> (2022)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/2eaaa37d-7e3e-439e-af0c-1a15228816fe">The Sky, The Earth & All Between</a> (2025)</li>
 </ul></details>
+<details><summary>As Everything Unfolds</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4192476">Did You Ask To Be Set Free?</a> (2026)</li>
+</ul></details>
 <details><summary>Bad Omens (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/015792e3-36cd-494f-aef3-317d178c8414">Bad Omens</a> (2016)</li>
@@ -171,6 +175,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2822978">Complete Collapse</a> (2022)</li>
 </ul></details>
+<details><summary>Stand Atlantic</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2620949">F.E.A.R.</a> (2022)</li>
+</ul></details>
 <details><summary>Taylor Acorn</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4046887">Poster Child</a> (2025)</li>
@@ -217,4 +225,4 @@
 </ul></details>
 
 
-<p>Total CDs: 80</p>
+<p>Total CDs: 82</p>
