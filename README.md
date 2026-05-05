@@ -20,7 +20,7 @@
 </ul></details>
 <details><summary>As Everything Unfolds</summary>
 <ul>
-<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4192476">Did You Ask To Be Set Free?</a> (2026)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/6c0101e9-28f6-4e0c-8ef2-fb5b34f5a12c">Did You Ask To Be Set Free?</a> (2026)</li>
 </ul></details>
 <details><summary>Bad Omens (3)</summary>
 <ul>
