@@ -44,7 +44,7 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/479a71e8-54e5-4d6b-a728-c16790088282">Black Veil Brides</a> (2014)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/5b94224d-1a9e-4615-b644-804f23713719">Vale</a> (2018)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/b60f7053-c88f-4386-a70c-6cd7698dccd9">The Phantom Tomorrow</a> (2021)</li>
-<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/d27d18fa-8114-4089-8b84-30d04941f8d1">Vindicate</a> (2026)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4219482">Vindicate</a> (2026)</li>
 </ul></details>
 <details><summary>Bring Me The Horizon (3)</summary>
 <ul>
