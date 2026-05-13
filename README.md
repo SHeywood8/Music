@@ -142,7 +142,7 @@
 </ul></details>
 <details><summary>Of Virtue</summary>
 <ul>
-<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/bd937f9e-e365-4367-922d-f7ace54749e9">Omen</a> (2023)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3337408">Omen</a> (2023)</li>
 </ul></details>
 <details><summary>Omega</summary>
 <ul>
