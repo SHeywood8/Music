@@ -49,6 +49,7 @@ def update_readme():
     html_albums = '''<h1>Music</h1>
 
 <h3>Links</h3>
+
 <a href="https://www.last.fm/user/Jam847">last.fm</a>
 
 <a href="https://openscrobbler.com/">OpenScrobbler</a>
