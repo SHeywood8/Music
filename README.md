@@ -1,7 +1,9 @@
 <h1>Music</h1>
 
-<details><summary>All Time Low</summary>
+<details><summary>All Time Low (3)</summary>
 <ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/631103">So Wrong, It's Right</a> (2007)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/436048">Nothing Personal</a> (2009)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/819661">Future Hearts</a> (2015)</li>
 </ul></details>
 <details><summary>Arch Enemy</summary>
@@ -172,8 +174,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/94193">Skid Row</a> (1989)</li>
 </ul></details>
-<details><summary>Sleeping With Sirens</summary>
+<details><summary>Sleeping With Sirens (3)</summary>
 <ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/513384">Let's Cheers To This</a> (2011)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/810543">Madness</a> (2015)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2822978">Complete Collapse</a> (2022)</li>
 </ul></details>
 <details><summary>Stand Atlantic</summary>
@@ -226,4 +230,4 @@
 </ul></details>
 
 
-<p>Total CDs: 83</p>
+<p>Total CDs: 87</p>
