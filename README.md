@@ -1,5 +1,11 @@
 <h1>Music</h1>
 
+<h3>Links</h3>
+<a href="https://www.last.fm/user/Jam847">last.fm</a>
+<a href="https://openscrobbler.com/">OpenScrobbler</a>
+
+<h3>CDs</h3>
+
 <details><summary>All Time Low (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/631103">So Wrong, It's Right</a> (2007)</li>

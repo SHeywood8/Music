@@ -46,7 +46,15 @@ def update_readme():
     total_album_count = 0
 
     album_dict = json_to_dict('albums.json')
-    html_albums = '<h1>Music</h1>\n\n'
+    html_albums = '''<h1>Music</h1>
+
+<h3>Links</h3>
+<a href="https://www.last.fm/user/Jam847">last.fm</a>
+<a href="https://openscrobbler.com/">OpenScrobbler</a>
+
+<h3>CDs</h3>
+
+'''
     album_artists = list(album_dict.keys())
     album_artists.sort()
     for album_artist in album_artists:
