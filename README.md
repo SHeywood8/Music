@@ -6,6 +6,8 @@
 
 <a href="https://openscrobbler.com/">OpenScrobbler</a>
 
+<a href="https://www.discogs.com/">Discogs</a>
+
 <h3>CDs</h3>
 
 <details><summary>All Time Low (3)</summary>
@@ -37,6 +39,10 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/015792e3-36cd-494f-aef3-317d178c8414">Bad Omens</a> (2016)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/66adee9c-64a1-45bd-b037-1140190e768f">Finding God Before God Finds Me</a> (2019)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/dd144a37-f8e3-4e14-aeda-83fbaba90f17">The Death of Peace of Mind</a> (2022)</li>
+</ul></details>
+<details><summary>Barns Courtney</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/1679f52f-ef39-4a57-83a0-6140ba61316e">The Attractions of Youth</a> (2017)</li>
 </ul></details>
 <details><summary>Beartooth</summary>
 <ul>
@@ -182,11 +188,12 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/94193">Skid Row</a> (1989)</li>
 </ul></details>
-<details><summary>Sleeping With Sirens (3)</summary>
+<details><summary>Sleeping With Sirens (4)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/513384">Let's Cheers To This</a> (2011)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/810543">Madness</a> (2015)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2822978">Complete Collapse</a> (2022)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4255431">An Ending In Itself</a> (2026)</li>
 </ul></details>
 <details><summary>Stand Atlantic</summary>
 <ul>
@@ -238,4 +245,4 @@
 </ul></details>
 
 
-<p>Total CDs: 87</p>
+<p>Total CDs: 89</p>

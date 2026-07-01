@@ -54,6 +54,8 @@ def update_readme():
 
 <a href="https://openscrobbler.com/">OpenScrobbler</a>
 
+<a href="https://www.discogs.com/">Discogs</a>
+
 <h3>CDs</h3>
 
 '''
