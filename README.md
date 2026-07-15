@@ -164,8 +164,9 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2850904">The Progressive Eighties</a> (2015)</li>
 </ul></details>
-<details><summary>Panic! At The Disco</summary>
+<details><summary>Panic! At The Disco (2)</summary>
 <ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/086bdf98-d64e-4e6b-a4ef-1d1c38789ef8">Too Weird to Live, Too Rare to Die!</a> (2013)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3b118482-86a4-4858-a275-26b47b66f740">Death Of A Bachelor</a> (2016)</li>
 </ul></details>
 <details><summary>Paramore</summary>
@@ -245,4 +246,4 @@
 </ul></details>
 
 
-<p>Total CDs: 89</p>
+<p>Total CDs: 90</p>
