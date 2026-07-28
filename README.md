@@ -144,17 +144,19 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3797772">Shapeshifter</a> (2025)</li>
 </ul></details>
-<details><summary>Motionless in White (3)</summary>
+<details><summary>Motionless in White (4)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/7b9831bd-8511-43a9-b09b-4fefe57075ec">Graveyard Shift</a> (2017)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/29d200a8-8749-4e82-8f63-d4faf7c4a1e5">Disguise</a> (2019)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Motionless%20in%20White/Scoring%20the%20End%20of%20the%20World">Scoring the End of the World</a> (2022)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/mbid/b13490bd-317f-4475-aaca-05a277e9e719">Decades</a> (2026)</li>
 </ul></details>
-<details><summary>My Chemical Romance (3)</summary>
+<details><summary>My Chemical Romance (4)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0d7934da-7d3c-4cd6-9032-daf481026c45">Three Cheers for Sweet Revenge</a> (2004)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/16eb8908-7d05-48b9-af7f-cb017302482a">The Black Parade</a> (2006)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/293832">Danger Days: The True Lives of the Fabulous Killjoys</a> (2010)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-37842921">Danger Days: The True Lives of the Fabulous Killjoys (Deluxe Edition)</a> (2026)</li>
 </ul></details>
 <details><summary>Of Virtue</summary>
 <ul>
@@ -236,9 +238,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/176d7554-1e42-4da8-83ea-f0f7a204483f">Stigma</a> (2024)</li>
 </ul></details>
-<details><summary>Waterparks</summary>
+<details><summary>Waterparks (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/1619637">Fandom</a> (2019)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4298058">Jinx</a> (2026)</li>
 </ul></details>
 <details><summary>Windwaker</summary>
 <ul>
@@ -246,4 +249,4 @@
 </ul></details>
 
 
-<p>Total CDs: 90</p>
+<p>Total CDs: 93</p>
