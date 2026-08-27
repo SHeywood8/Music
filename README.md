@@ -136,9 +136,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/fa0eeed8-1ca7-46ff-af31-2169dc29f3e1">From Zero</a> (2024)</li>
 </ul></details>
-<details><summary>LØLØ</summary>
+<details><summary>LØLØ (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/L%C3%98L%C3%98/Debbie%20Downer%20x%20Overkill">debbie downer x overkill</a> (2023)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4213701">God Forbid A Girl Spits Out Her Feelings</a> (2026)</li>
 </ul></details>
 <details><summary>Memphis May Fire</summary>
 <ul>
@@ -198,9 +199,10 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2822978">Complete Collapse</a> (2022)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/4255431">An Ending In Itself</a> (2026)</li>
 </ul></details>
-<details><summary>Stand Atlantic</summary>
+<details><summary>Stand Atlantic (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/2620949">F.E.A.R.</a> (2022)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3577102">Was Here</a> (2024)</li>
 </ul></details>
 <details><summary>Taylor Acorn</summary>
 <ul>
@@ -249,4 +251,4 @@
 </ul></details>
 
 
-<p>Total CDs: 93</p>
+<p>Total CDs: 95</p>
