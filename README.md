@@ -102,6 +102,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3264772">Chaser</a> (2023)</li>
 </ul></details>
+<details><summary>Future Palace</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-38050188">Resurgence</a> (2026)</li>
+</ul></details>
 <details><summary>Ghostkid</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3433472">Hollywood Suicide</a> (2024)</li>
@@ -152,16 +156,22 @@
 <li><a href="https://openscrobbler.com/scrobble/album/view/Motionless%20in%20White/Scoring%20the%20End%20of%20the%20World">Scoring the End of the World</a> (2022)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/b13490bd-317f-4475-aaca-05a277e9e719">Decades</a> (2026)</li>
 </ul></details>
-<details><summary>My Chemical Romance (4)</summary>
+<details><summary>My Chemical Romance (6)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0d7934da-7d3c-4cd6-9032-daf481026c45">Three Cheers for Sweet Revenge</a> (2004)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/16eb8908-7d05-48b9-af7f-cb017302482a">The Black Parade</a> (2006)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/293832">Danger Days: The True Lives of the Fabulous Killjoys</a> (2010)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-5530408">May Death Never Stop You</a> (2014)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-34190962">Three Cheers For Sweet Revenge (Deluxe Edition)</a> (2025)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-37842921">Danger Days: The True Lives of the Fabulous Killjoys (Deluxe Edition)</a> (2026)</li>
 </ul></details>
 <details><summary>Of Virtue</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3337408">Omen</a> (2023)</li>
+</ul></details>
+<details><summary>Old Gods Of Asgard</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-29173207">Rebirth - Greatest Hits</a> (2023)</li>
 </ul></details>
 <details><summary>Omega</summary>
 <ul>
@@ -180,12 +190,14 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3de12d3b-5004-370c-9d8e-aea99ceaf4c3">Greatest Hits</a> (2006)</li>
 </ul></details>
-<details><summary>RØRY</summary>
+<details><summary>RØRY (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/R%C3%98RY/RESTORATION">RESTORATION</a> (2025)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-38407938">Bloodletting</a> (2026)</li>
 </ul></details>
-<details><summary>Shinedown</summary>
+<details><summary>Shinedown (2)</summary>
 <ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-3519113">The Sound of Madness</a> (2008)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Shinedown/Planet%20Zero">Planet Zero</a> (2022)</li>
 </ul></details>
 <details><summary>Skid Row</summary>
@@ -212,9 +224,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0e779906-e1b5-48af-8b91-fe813c933f39">The Libertines</a> (2004)</li>
 </ul></details>
-<details><summary>The Pretty Reckless</summary>
+<details><summary>The Pretty Reckless (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/021e7ac3-0bf1-451f-8117-167039912e52">Going to Hell</a> (2014)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-17391916">Death By Rock And Roll</a> (2021)</li>
 </ul></details>
 <details><summary>The Sisters of Mercy (5)</summary>
 <ul>
@@ -251,4 +264,4 @@
 </ul></details>
 
 
-<p>Total CDs: 95</p>
+<p>Total CDs: 102</p>
