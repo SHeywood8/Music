@@ -83,6 +83,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/3e4eaeb0-d406-4c2b-885a-dfb487f06624">Slow Burn</a> (2023)</li>
 </ul></details>
+<details><summary>Dark Divine</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-37495416">Undead Melody</a> (2026)</li>
+</ul></details>
 <details><summary>Electric Callboy</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/Electric%20Callboy/Tekkno%20(Tour%20Edition)">Tekkno</a> (2023)</li>
@@ -109,6 +113,11 @@
 <details><summary>Ghostkid</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3433472">Hollywood Suicide</a> (2024)</li>
+</ul></details>
+<details><summary>Honey Revenge (2)</summary>
+<ul>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-27559503">Retrovision</a> (2023)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-38509992">Loving And Losing</a> (2026)</li>
 </ul></details>
 <details><summary>I Prevail (3)</summary>
 <ul>
@@ -264,4 +273,4 @@
 </ul></details>
 
 
-<p>Total CDs: 102</p>
+<p>Total CDs: 105</p>
