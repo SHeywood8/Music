@@ -89,6 +89,39 @@ def update_readme():
         f.close()
     return
 
+def update_table():
+    album_dict = json_to_dict('albums.json')
+    html_table = '''<table>
+<tr>
+<td>Artist</td>
+<td>Album</td>
+<td>Release Year</td>
+<td>OpenScrobbler Link</td>
+</tr>
+'''
+    album_artists = list(album_dict.keys())
+    album_artists.sort()
+    for album_artist in album_artists:
+        artist_albums = list(album_dict[album_artist].keys())
+        artist_albums.sort()
+        artist_albums_tuples = []
+        for artist_album in artist_albums:
+            album_tuple = [artist_album, album_dict[album_artist][artist_album]['year'], album_dict[album_artist][artist_album]['link']]
+            artist_albums_tuples.append(album_tuple)
+        artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
+
+        for album in artist_albums_tuples:
+            album_row_html = f'<tr>\n<td>{album_artist}</td>\n<td>{album[0]}</td>\n<td>{album[1]}</td>\n<td><a href="{album[2]}">Link</a></td>\n</tr>\n'
+            html_table += album_row_html
+    html_table += '</table>'
+    with open('album-table.md', 'w') as f:
+        f.write(html_table)
+        f.close()
+    return
+
+
+
+
 def main():
     while True:
         content = input("What would you like to do?\n")
@@ -122,6 +155,7 @@ Help, ? - show this list.""")
                 return
             case "up" | "update":
                 update_readme()
+                update_table()
             case "cl" | "clear":
                 confirmation = input("Are you sure you want to wipe all added albums? Y/n\n")
                 if confirmation == "Y":
