@@ -91,14 +91,7 @@ def update_readme():
 
 def update_table():
     album_dict = json_to_dict('albums.json')
-    html_table = '''<table>
-<tr>
-<td>Artist</td>
-<td>Album</td>
-<td>Release Year</td>
-<td>OpenScrobbler Link</td>
-</tr>
-'''
+    markdown_table = '|Artist|Album|Release Year|OpenScrobbler Link\n|-----|-----|-----|-----|\n'
     album_artists = list(album_dict.keys())
     album_artists.sort()
     for album_artist in album_artists:
@@ -111,11 +104,10 @@ def update_table():
         artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
 
         for album in artist_albums_tuples:
-            album_row_html = f'<tr>\n<td>{album_artist}</td>\n<td>{album[0]}</td>\n<td>{album[1]}</td>\n<td><a href="{album[2]}">Link</a></td>\n</tr>\n'
-            html_table += album_row_html
-    html_table += '</table>'
+            album_row_md = f'|{album_artist}|{album[0]}|{album[1]}|[Link]({album[2]})|\n'
+            markdown_table += album_row_md
     with open('album-table.md', 'w') as f:
-        f.write(html_table)
+        f.write(markdown_table)
         f.close()
     return
 
