@@ -27,6 +27,8 @@ def get_album_info():
         except:
             print("Error: Input must be an integer.")
     OpenScrobbler_link = input("OpenScrobbler Link: ")
+    if OpenScrobbler_link[0] != "h":
+        OpenScrobbler_link = "https://openscrobbler.com/scrobble/album/view/dsid/release-" + OpenScrobbler_link
     return (artist_name, album_name, release_year, OpenScrobbler_link)
 
 def add_album_to_dict(album_info):

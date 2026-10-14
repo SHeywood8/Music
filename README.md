@@ -44,9 +44,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/1679f52f-ef39-4a57-83a0-6140ba61316e">The Attractions of Youth</a> (2017)</li>
 </ul></details>
-<details><summary>Beartooth</summary>
+<details><summary>Beartooth (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/751852">Disgusting</a> (2014)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-38293944">Pure Ecstacy</a> (2026)</li>
 </ul></details>
 <details><summary>Black Sabbath</summary>
 <ul>
@@ -110,9 +111,10 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-38050188">Resurgence</a> (2026)</li>
 </ul></details>
-<details><summary>Ghostkid</summary>
+<details><summary>Ghostkid (2)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/3433472">Hollywood Suicide</a> (2024)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-38593830">Follow The White Rabbit</a> (2026)</li>
 </ul></details>
 <details><summary>Honey Revenge (2)</summary>
 <ul>
@@ -233,10 +235,11 @@
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/0e779906-e1b5-48af-8b91-fe813c933f39">The Libertines</a> (2004)</li>
 </ul></details>
-<details><summary>The Pretty Reckless (2)</summary>
+<details><summary>The Pretty Reckless (3)</summary>
 <ul>
 <li><a href="https://openscrobbler.com/scrobble/album/view/mbid/021e7ac3-0bf1-451f-8117-167039912e52">Going to Hell</a> (2014)</li>
 <li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-17391916">Death By Rock And Roll</a> (2021)</li>
+<li><a href="https://openscrobbler.com/scrobble/album/view/dsid/release-37829802">Dear God</a> (2026)</li>
 </ul></details>
 <details><summary>The Sisters of Mercy (5)</summary>
 <ul>
@@ -273,4 +276,4 @@
 </ul></details>
 
 
-<p>Total CDs: 105</p>
+<p>Total CDs: 108</p>
