@@ -44,6 +44,18 @@ def add_album_to_dict(album_info):
     dict_to_json(album_dict)
     return
 
+def remove_album_from_dict(album_info):
+    artist_name, album_name, _, _ = album_info
+
+    album_dict = json_to_dict('albums.json')
+
+    del album_dict[artist_name][album_name]
+    if album_dict[artist_name] == {}:
+        del album_dict[artist_name]
+
+    dict_to_json(album_dict)
+    return
+
 def update_readme():
     total_album_count = 0
 
@@ -64,6 +76,8 @@ def update_readme():
     album_artists = list(album_dict.keys())
     album_artists.sort()
     for album_artist in album_artists:
+        if album_artist == "test":
+            continue
         artist_albums = list(album_dict[album_artist].keys())
         artist_albums.sort()
         artist_albums_tuples = []
@@ -95,6 +109,8 @@ def update_table():
     album_artists = list(album_dict.keys())
     album_artists.sort()
     for album_artist in album_artists:
+        if album_artist == "test":
+            continue
         artist_albums = list(album_dict[album_artist].keys())
         artist_albums.sort()
         artist_albums_tuples = []
@@ -111,7 +127,103 @@ def update_table():
         f.close()
     return
 
+def edit_entry():
+    album_dict = json_to_dict('albums.json')
+    album_artists = list(album_dict.keys())
+    album_artists.sort()
+    print("To find entry to edit, enter:")
+    while True:
+        edit_artist = input("Artist Name: ")
+        if edit_artist not in album_artists:
+            print("Artist not found.")
+            continue
+        else:
+            print("Artist found. Albums listed below.")
+            break
 
+    artist_albums = list(album_dict[edit_artist].keys())
+    artist_albums.sort()
+    for album in artist_albums:
+        print(album)
+        
+    while True:
+        edit_album = input("Album Name: ")
+        if not edit_album in album_dict[edit_artist]:
+            print("Album not found.")
+            continue
+        else:
+            print("Album found. Full information listed below.")
+            break
+
+    album_dict_entry = album_dict[edit_artist][edit_album]
+    album_tuple = [edit_artist, edit_album, album_dict_entry['year'],album_dict_entry['link']]
+    edit_tuple = ['Artist Name', 'Album Name', 'Release Year', 'OpenScrobbler Link']
+    for i in range(4):
+        print(f'{i+1}. {edit_tuple[i]}: {album_tuple[i]}')
+    while True:
+        edit_entry = input("Enter number of information to edit: ")
+        try:
+            edit_entry = int(edit_entry) - 1
+            break
+        except:
+            print("Input must be an integer.")
+    edit_info = input(f"Enter new entry for {edit_tuple[edit_entry]}: ")
+    if edit_entry == 3:
+        if edit_info[0] != "h":
+            edit_info = "https://openscrobbler.com/scrobble/album/view/dsid/release-" + edit_info
+    new_album_tuple = album_tuple.copy()
+    new_album_tuple[edit_entry] = edit_info
+    remove_album_from_dict(album_tuple)
+    add_album_to_dict(new_album_tuple)
+    return
+
+def remove_entry():
+    album_dict = json_to_dict('albums.json')
+    album_artists = list(album_dict.keys())
+    album_artists.sort()
+    while True:
+        edit_artist = input("Artist Name: ")
+        if edit_artist.lower() == "end":
+            return
+        elif edit_artist not in album_artists:
+            print("Artist not found.")
+            continue
+        else:
+            break
+
+    print("Albums:")
+    artist_albums = list(album_dict[edit_artist].keys())
+    artist_albums.sort()
+    for album in artist_albums:
+        print(f'-{album}')
+        
+    while True:
+        edit_album = input("Album Name: ")
+        if not edit_album in album_dict[edit_artist]:
+            print("Album not found.")
+            continue
+        else:
+            break
+
+    album_dict_entry = album_dict[edit_artist][edit_album]
+    album_tuple = [edit_artist, edit_album, album_dict_entry['year'],album_dict_entry['link']]
+    edit_tuple = ['Artist Name', 'Album Name', 'Release Year', 'OpenScrobbler Link']
+    print("\n=== Entry ===")
+    for i in range(4):
+        print(f'{edit_tuple[i]}: {album_tuple[i]}')
+    print("=== Entry ===\n")
+    while True:
+        response = input("""Remove album entry? If this is the only album entry for the artist, the artist will also be removed.
+Y/n: """)
+        if response.lower() == "y":
+            remove_album_from_dict(album_tuple)
+            break
+        elif response.lower() == "n":
+            return
+    return
+
+def find_entry():
+    return
 
 
 def main():
@@ -123,7 +235,8 @@ def main():
 ba, bulkadd - Add multiple albums back to back.
 rm, remove - Remove an album.
 ed, edit - Edit an existing album.
-up, update - Update 'README.md' with all newly added albums.
+qr, query - Find an album entry.
+up, update - Update 'README.md' and 'album-table.md' with all newly added albums.
 cl, clear - Wipe added albums.
 end - Exit this program.
 Help, ? - show this list.""")
@@ -140,9 +253,11 @@ Help, ? - show this list.""")
                         break
                     add_album_to_dict(album_info)
             case "rm" | "remove":
-                print("'Remove' function not yet added.")
+                remove_entry()
             case "ed" | "edit":
-                print("'Edit' function not yet added.")
+                edit_entry()
+            case "qr" | "query":
+                find_entry()
             case "end":
                 return
             case "up" | "update":
