@@ -14,22 +14,44 @@ def json_to_dict(filepath):
         f.close()
     return json.loads(content)
 
-def get_album_info():
-    artist_name = input("Artist Name: ")
-    if artist_name.lower() in ["esc", "escape", "end"]:
-        return None
-    album_name = input("Album Name: ")
-    while True:
-        release_year = input("Year of Release: ")
-        try:
-            release_year = int(release_year)
-            break
-        except:
-            print("Error: Input must be an integer.")
-    OpenScrobbler_link = input("OpenScrobbler Link: ")
-    if OpenScrobbler_link[0] != "h":
-        OpenScrobbler_link = "https://openscrobbler.com/scrobble/album/view/dsid/release-" + OpenScrobbler_link
-    return (artist_name, album_name, release_year, OpenScrobbler_link)
+def get_album_info(fields = "1234"):
+    album_info = [None]*4
+
+    valid_input = False
+    for i in range(1,5):
+        if str(i) in fields:
+            valid_input = True
+    if not valid_input:
+        print("Invalid Input")
+        return album_info
+
+    if "1" in fields:
+        artist_name = input("Artist Name: ")
+        if artist_name.lower() in ["esc", "escape", "end"]:
+            return None
+        album_info[0] = artist_name
+
+    if "2" in fields:
+        album_name = input("Album Name: ")
+        album_info[1] = album_name
+
+    if "3" in fields:
+        while True:
+            release_year = input("Year of Release: ")
+            try:
+                release_year = int(release_year)
+                break
+            except:
+                print("Error: Input must be an integer.")
+        album_info[2] = release_year
+
+    if "4" in fields:
+        OpenScrobbler_link = input("OpenScrobbler Link: ")
+        if OpenScrobbler_link[0] != "h":
+            OpenScrobbler_link = "https://openscrobbler.com/scrobble/album/view/dsid/release-" + OpenScrobbler_link
+            album_info[3] = OpenScrobbler_link
+    
+    return album_info
 
 def add_album_to_dict(album_info):
     artist_name, album_name, release_year, OpenScrobbler_link = album_info
@@ -58,7 +80,7 @@ def remove_album_from_dict(album_info):
 
 def update_readme():
     total_album_count = 0
-
+    
     album_dict = json_to_dict('albums.json')
     html_albums = '''<h1>Music</h1>
 
@@ -68,60 +90,43 @@ def update_readme():
 
 <a href="https://openscrobbler.com/">OpenScrobbler</a>
 
-<a href="https://www.discogs.com/">Discogs</a>
+<a href="https://www.discogs.com/user/jam847/collection">Discogs</a>
 
 <h3>CDs</h3>
 
 '''
-    album_artists = list(album_dict.keys())
-    album_artists.sort()
-    for album_artist in album_artists:
-        if album_artist == "test":
+    all_artists = list(album_dict.keys())
+    all_artists.sort()
+
+    for artist in all_artists:
+        if artist[:4] == "test":
             continue
-        artist_albums = list(album_dict[album_artist].keys())
-        artist_albums.sort()
-        artist_albums_tuples = []
-        for artist_album in artist_albums:
-            album_tuple = [artist_album, album_dict[album_artist][artist_album]['year'], album_dict[album_artist][artist_album]['link']]
-            artist_albums_tuples.append(album_tuple)
-        artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
-        album_count = len(artist_albums_tuples)
+        album_tuples = get_artist_albums(artist)
+        album_count = len(album_tuples)
         total_album_count += album_count
 
-        album_html = f'<details><summary>{album_artist}'
+        album_html = f'<details><summary>{artist}'
         if album_count > 1:
             album_html += f' ({album_count})'
         album_html += '</summary>\n<ul>\n'
 
-        for tuple in artist_albums_tuples:
-            album_html += f'<li><a href="{tuple[2]}">{tuple[0]}</a> ({tuple[1]})</li>\n'
+        for tuple in album_tuples:
+            album_html += f'<li><a href="{tuple[3]}">{tuple[1]}</a> ({tuple[2]})</li>\n'
         album_html += '</ul></details>\n'
         html_albums += album_html
     html_albums += f"\n\n<p>Total CDs: {total_album_count}</p>"
     with open('README.md', 'w') as f:
         f.write(html_albums)
         f.close()
+    
     return
 
 def update_table():
-    album_dict = json_to_dict('albums.json')
     markdown_table = '|Artist|Album|Release Year|OpenScrobbler Link\n|-----|-----|-----|-----|\n'
-    album_artists = list(album_dict.keys())
-    album_artists.sort()
-    for album_artist in album_artists:
-        if album_artist == "test":
-            continue
-        artist_albums = list(album_dict[album_artist].keys())
-        artist_albums.sort()
-        artist_albums_tuples = []
-        for artist_album in artist_albums:
-            album_tuple = [artist_album, album_dict[album_artist][artist_album]['year'], album_dict[album_artist][artist_album]['link']]
-            artist_albums_tuples.append(album_tuple)
-        artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[1])
-
-        for album in artist_albums_tuples:
-            album_row_md = f'|{album_artist}|{album[0]}|{album[1]}|[Link]({album[2]})|\n'
-            markdown_table += album_row_md
+    all_albums = get_all_albums()
+    for album in all_albums:
+        album_row_md = f'|{album[0]}|{album[1]}|{album[2]}|[Link]({album[3]})|\n'
+        markdown_table += album_row_md
     with open('album-table.md', 'w') as f:
         f.write(markdown_table)
         f.close()
@@ -161,18 +166,16 @@ def edit_entry():
     for i in range(4):
         print(f'{i+1}. {edit_tuple[i]}: {album_tuple[i]}')
     while True:
-        edit_entry = input("Enter number of information to edit: ")
-        try:
-            edit_entry = int(edit_entry) - 1
+        edit_index = input("Enter numbers of information to edit: ")
+        new_album_tuple = get_album_info(edit_index)
+        if new_album_tuple == [None] * 4:
+            print("Invalid input. Some combination of 1-4 expected.")
+            continue
+        else:
             break
-        except:
-            print("Input must be an integer.")
-    edit_info = input(f"Enter new entry for {edit_tuple[edit_entry]}: ")
-    if edit_entry == 3:
-        if edit_info[0] != "h":
-            edit_info = "https://openscrobbler.com/scrobble/album/view/dsid/release-" + edit_info
-    new_album_tuple = album_tuple.copy()
-    new_album_tuple[edit_entry] = edit_info
+    for i in range(4):
+        if new_album_tuple[i] == None:
+            new_album_tuple[i] = album_tuple[i]
     remove_album_from_dict(album_tuple)
     add_album_to_dict(new_album_tuple)
     return
@@ -225,6 +228,79 @@ Y/n: """)
 def find_entry():
     return
 
+def clear_all_entries():
+    confirmation = input("Are you sure you want to wipe all added albums? Y/n\n")
+    if confirmation == "Y":
+        dict_to_json({})
+    return
+
+def add_entry():
+    album_info = get_album_info()
+    if album_info == None:
+        return 0
+    add_album_to_dict(album_info)
+    return None
+
+def bulk_add_entry():
+    print("Now bulk adding albums. Type 'esc' or 'Escape' to cancel.")
+    while True:
+        result = add_entry()
+        if result == 0:
+            break
+    return
+
+def get_all_albums(with_test = False):
+    album_dict = json_to_dict('albums.json')
+    album_artists = list(album_dict.keys())
+    album_artists.sort()
+    all_albums = []
+    for album_artist in album_artists:
+        if album_artist[0:4] == "test" and not with_test:
+            continue
+        artist_albums = list(album_dict[album_artist].keys())
+        artist_albums.sort()
+        artist_albums_tuples = []
+        for artist_album in artist_albums:
+            album_tuple = [album_artist, artist_album, album_dict[album_artist][artist_album]['year'], album_dict[album_artist][artist_album]['link']]
+            artist_albums_tuples.append(album_tuple)
+        artist_albums_tuples = sorted(artist_albums_tuples, key=lambda x:x[2])
+        all_albums += artist_albums_tuples
+    return all_albums
+
+def get_artist_albums(artist_name):
+    album_dict = json_to_dict('albums.json')
+    artist_albums = []
+    if artist_name not in album_dict:
+        return artist_albums
+    for album in album_dict[artist_name].keys():
+        album_entry = album_dict[artist_name][album]
+        album_tuple = [artist_name, album, album_entry["year"], album_entry["link"]]
+        artist_albums.append(album_tuple)
+    return sorted(artist_albums, key=lambda x:x[2])
+
+def get_albums(album_name):
+    return [x for x in get_all_albums(True) if x[1] == album_name]
+
+def format_album_tuple(album_tuple, header = True, footer = True):
+    content = ''
+    if header:
+        content += '=== Entry ===\n'
+    content += f'''Artist Name: {album_tuple[0]}
+Album Name: {album_tuple[1]}
+Release Year: {album_tuple[2]}
+OpenScrobbler Link: {album_tuple[3]}'''
+    if footer:
+        content += '\n=== Entry ==='
+    return content
+
+def lprint(lst):
+    if type(lst) != list:
+        print("Input not a list.")
+    else:
+        for x in lst:
+            print(x)
+    return
+
 
 def main():
     while True:
@@ -241,32 +317,22 @@ cl, clear - Wipe added albums.
 end - Exit this program.
 Help, ? - show this list.""")
             case "add":
-                album_info = get_album_info()
-                if album_info == None:
-                    break
-                add_album_to_dict(album_info)
+                add_entry()
             case "ba" | "bulkadd":
-                print("Now bulk adding albums. Type 'esc' or 'Escape' to cancel.")
-                while True:
-                    album_info = get_album_info()
-                    if album_info == None:
-                        break
-                    add_album_to_dict(album_info)
+                bulk_add_entry()
             case "rm" | "remove":
                 remove_entry()
             case "ed" | "edit":
                 edit_entry()
             case "qr" | "query":
                 find_entry()
-            case "end":
-                return
             case "up" | "update":
                 update_readme()
                 update_table()
             case "cl" | "clear":
-                confirmation = input("Are you sure you want to wipe all added albums? Y/n\n")
-                if confirmation == "Y":
-                    dict_to_json({})
+                clear_all_entries()
+            case "end":
+                return
             case _:
                 print(f"Command {content} not found. Type 'Help' or '?' for command list.")
 

@@ -6,7 +6,7 @@
 
 <a href="https://openscrobbler.com/">OpenScrobbler</a>
 
-<a href="https://www.discogs.com/">Discogs</a>
+<a href="https://www.discogs.com/user/jam847/collection">Discogs</a>
 
 <h3>CDs</h3>
 
