@@ -28,8 +28,10 @@ class AlbumNode():
 {self.discogs_id}'''
         return string
 
+
+
 class ArtistNode():
-    def __init__(self, name = None, albums = []):
+    def __init__(self, name = None, albums:list = []):
         self.name = name
         if albums != []:
             for album in albums:
@@ -42,17 +44,10 @@ class ArtistNode():
             album_names.append(album.name)
         return album_names
 
-    def get_album_tuples(self):
-        albums = []
-        for album in self.albums:
-            albums.append([album.name, album])
-        return albums
-
     def get_album(self, album_name:str):
-        albums = self.get_album_tuples()
-        for album in albums:
-            if album[0].lower() == album_name.lower():
-                return True, album[1]
+        for album in self.albums:
+            if album.name.lower() == album_name.lower():
+                return True, album
         return False, None
 
     def add_album(self, album:AlbumNode):
@@ -76,6 +71,8 @@ class ArtistNode():
                 string += f'\n-{album.name} ({album.release_date.year})'
         return string
 
+
+
 class MusicDatabase():
     def __init__(self, artists = []):
         self.artists = artists
@@ -87,6 +84,12 @@ class MusicDatabase():
                 string += artist.__repr__() + "\n"
         return string
 
+    def get_artist(self, artist_name:str):
+        for artist in self.artists:
+            if artist.name.lower() == artist_name.lower():
+                return True, artist
+        return False, None
+
     def get_artist_names(self):
         artist_names = []
         for artist in self.artists:
@@ -94,13 +97,14 @@ class MusicDatabase():
         return artist_names
 
     def add_artist(self, artist: ArtistNode):
-        if not artist.name in self.get_artist_names():
+        artist_found, orig_artist_node = self.get_artist(artist.name)
+        if not artist_found:
             self.artists.append(artist)
+            self.artists = sorted(self.artists, key=lambda x:x.name)
         else:
-            print(f"Artist: {artist.name} already in database. Adding Albums")
             for album in artist.albums:
-                artist.add_album(album)
-        self.artists = sorted(self.artists, key=lambda x:x.name)
+                orig_artist_node.add_album(album)
+        
 
     def dump(self, filepath: str):
         abs_filepath = os.path.abspath(filepath)
