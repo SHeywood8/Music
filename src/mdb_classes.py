@@ -1,5 +1,6 @@
-import os, pickle, sys
-from pkl_inters import clear_mdb
+import os, pickle
+from date_class import Date
+import pickle_interactions as pkl
 
 class AlbumNode():
     def __init__(self, name = None, release_date = None, acquisition_date = None, discogs_id = None, artist = None):
@@ -8,18 +9,23 @@ class AlbumNode():
         self.acquisition_date = acquisition_date
         self.discogs_id = discogs_id
         self.artist = artist
+        return
 
     def set_artist(self, artist: ArtistNode):
         self.artist = artist
+        return
 
     def set_release_date(self, date:Date):
         self.release_date = date
+        return
 
     def set_acquisition_date(self, date:Date):
         self.acquisition_date = date
+        return
 
     def set_discogs_id(self, id):
         self.discogs_id = id
+        return
 
     def __repr__(self):
         string = f'''{self.artist.name}
@@ -37,6 +43,7 @@ class ArtistNode():
             for album in albums:
                 album.set_artist(self)
         self.albums = albums
+        return
 
     def get_album_names(self):
         album_names = []
@@ -62,7 +69,8 @@ class ArtistNode():
                 orig_album_node.set_discogs_id(album.discogs_id)
             if album.acquisition_date != None:
                 orig_album_node.set_acquisition_date(album.acquisition_date)
-        self.albums = sorted(self.albums, key=lambda x:x.release_date.year)
+        self.albums = sorted(self.albums, key=lambda x:x.release_date)
+        return
 
     def __repr__(self):
         string = self.name
@@ -104,9 +112,31 @@ class MusicDatabase():
         else:
             for album in artist.albums:
                 orig_artist_node.add_album(album)
-        
+        return
+
+    def remove_artist(self, artist: ArtistNode):
+        artist_index = self.artists.index(artist)
+        self.artists.pop(artist_index)
+        return
+
+    def add_album(self, album: AlbumNode):
+        artist_node = album.artist
+        if album.artist != None:
+            artist_found, orig_artist_node = self.get_artist(artist_node.name)
+            if not artist_found:
+                self.add_artist(artist_node)
+            else:
+                album.set_artist(orig_artist_node)
+                orig_artist_node.add_album(album)
+        else:
+            print("Cannot add Album without Artist to Database.")
+        return
+
 
     def dump(self, filepath: str):
+        if filepath == '':
+            filepath = "data/mdb.pkl"
         abs_filepath = os.path.abspath(filepath)
-        clear_mdb(abs_filepath)
+        #pkl.clear_mdb(abs_filepath)
         pickle.dump(self, open(abs_filepath, 'wb'))
+        return
