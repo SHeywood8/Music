@@ -34,6 +34,12 @@
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-37035174'>Did You Ask To Be Set Free?</a> (2026) <a href='https://www.discogs.com/release/37035174'>O</a></li>
 </ul></details>
+<details><summary>Bad Omens (3)</summary>
+<ul>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-8920859'>Bad Omens</a> (2016) <a href='https://www.discogs.com/release/8920859'>O</a></li>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-13993484'>Finding God Before God Finds Me</a> (2019) <a href='https://www.discogs.com/release/13993484'>O</a></li>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-22306783'>The Death Of Peace Of Mind</a> (2022) <a href='https://www.discogs.com/release/22306783'>O</a></li>
+</ul></details>
 <details><summary>Barns Courtney</summary>
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-12870087'>The Attractions Of Youth</a> (2017) <a href='https://www.discogs.com/release/12870087'>O</a></li>
@@ -273,4 +279,4 @@
 </ul></details>
 
 
-<p>Total Albums: 108</p>
+<p>Total Albums: 111</p>
