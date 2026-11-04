@@ -3,8 +3,9 @@ import pickle_interactions as pkl
 import info_inputs as inp
 
 from add_entry import add_entry
-from delete_artist import delete_artist
+from delete_artist import delete_entry
 from print_mdb import print_mdb
+from query_mdb import query_mdb
 
 def main(filepath):
     while True:
@@ -15,6 +16,7 @@ def main(filepath):
 ad, add - Add an entry to the Database.
 rm, remove - Remove an entry from the Database.
 pr, print - Print the full Database. Use `query` for more precision.
+qr, query - Find and edit an album entry.
 
 end, '' - Exit this program.
 Help, ? - Show this list.
@@ -22,9 +24,11 @@ Help, ? - Show this list.
             case "ad" | "add":
                 add_entry(filepath)
             case "rm" | "remove":
-                return NotImplementedError
+                delete_entry(filepath)
             case "pr" | "print":
                 print_mdb(filepath)
+            case "qr" | "query":
+                query_mdb(filepath)
             case "end" | '':
                 return
             case _:

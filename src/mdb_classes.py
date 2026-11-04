@@ -1,18 +1,34 @@
 import os, pickle
-from date_class import Date
+from date_class import Date, str_to_date
 import pickle_interactions as pkl
 
 class AlbumNode():
     def __init__(self, name = None, release_date = None, acquisition_date = None, discogs_id = None, artist = None):
         self.name = name
-        self.release_date = release_date
-        self.acquisition_date = acquisition_date
         self.discogs_id = discogs_id
-        self.artist = artist
+
+        if isinstance(release_date, str):
+            self.release_date = str_to_date(release_date)
+        elif isinstance(release_date, Date):
+            self.release_date = release_date
+
+        if isinstance(acquisition_date, str):
+            self.acquisition_date = str_to_date(acquisition_date)
+        elif isinstance(acquisition_date, Date):
+            self.acquisition_date = acquisition_date
+        
+        if artist != None:
+            self.artist = ArtistNode(artist)
+        else:
+            self.artist = None
         return
 
     def set_artist(self, artist: ArtistNode):
-        self.artist = artist
+        if self.artist != None:
+            old_artist = self.artist
+            if self in old_artist.albums:
+                old_artist.albums.remove(self)
+        artist.add_album(self)
         return
 
     def set_release_date(self, date:Date):
@@ -27,22 +43,41 @@ class AlbumNode():
         self.discogs_id = id
         return
 
+    def set_name(self, name):
+        self.name = name
+        return
+
+    def to_html(self):
+        html = f"<a href='https://openscrobbler.com/scrobble/album/view/dsid/release-{self.discogs_id}'>"
+        html += f"{self.name}</a> ({self.release_date.year}) "
+        html += f"<a href='https://www.discogs.com/release/{self.discogs_id}'>O</a>"
+        return html
+
     def __repr__(self):
-        string = f'''{self.artist.name}
-{self.name}
-{self.release_date}
-{self.discogs_id}'''
+        return self.name
+
+    def to_str(self, with_artist_name = True):
+        string = ''
+        if with_artist_name:
+            string += f"Artist Name: {self.artist.name}\n"
+        string += f'''Album Name: {self.name}
+Release Date: {self.release_date.__repr__()}
+Acquisition Date: {self.acquisition_date.__repr__()}
+Discogs ID: {self.discogs_id}'''
         return string
 
 
 
 class ArtistNode():
-    def __init__(self, name = None, albums:list = []):
+    def __init__(self, name = None, albums:list = [], database:MusicDatabase = None):
         self.name = name
         if albums != []:
             for album in albums:
                 album.set_artist(self)
-        self.albums = albums
+            self.albums = albums
+        else:
+            self.albums = []
+        self.database = database
         return
 
     def get_album_names(self):
@@ -73,11 +108,34 @@ class ArtistNode():
         return
 
     def __repr__(self):
+        return self.name
+
+    def albums_to_str(self):
         string = self.name
         if self.albums != []:
             for album in self.albums:
                 string += f'\n-{album.name} ({album.release_date.year})'
         return string
+
+    def to_html(self):
+        html = f'<details><summary>{self.name}'
+        album_count = len(self.albums)
+        if album_count > 1:
+            html += f' ({album_count})'
+        html += "</summary>"
+        if album_count == 0:
+            return html + "</details>", album_count
+        html += "\n<ul>\n"
+        for album in self.albums:
+            html += "<li>" + album.to_html() + "</li>\n"
+        html += "</ul></details>\n"
+        return html, album_count
+
+    def set_database(self, mdb:MusicDatabase):
+        self.database = mdb
+        return
+
+
 
 
 
@@ -109,6 +167,7 @@ class MusicDatabase():
         if not artist_found:
             self.artists.append(artist)
             self.artists = sorted(self.artists, key=lambda x:x.name)
+            artist.database = self
         else:
             for album in artist.albums:
                 orig_artist_node.add_album(album)
@@ -129,14 +188,45 @@ class MusicDatabase():
                 album.set_artist(orig_artist_node)
                 orig_artist_node.add_album(album)
         else:
-            print("Cannot add Album without Artist to Database.")
+            print("Cannot add Album without Artist.")
         return
 
 
-    def dump(self, filepath: str):
+    def dump(self, filepath:str=''):
         if filepath == '':
             filepath = "data/mdb.pkl"
         abs_filepath = os.path.abspath(filepath)
         #pkl.clear_mdb(abs_filepath)
         pickle.dump(self, open(abs_filepath, 'wb'))
         return
+
+    def get_all_ablums(self):
+        albums = []
+        for artist in self.artists:
+            artist:ArtistNode
+            if artist.albums != None:
+                albums += artist.albums
+        albums = sorted(albums, key = lambda x:x.name)
+        return albums
+
+    def to_html(self):
+        html = """<h1>Music</h1>
+
+<h3>Links</h3>
+
+<a href="https://www.last.fm/user/Jam847">last.fm</a>
+
+<a href="https://openscrobbler.com/">OpenScrobbler</a>
+
+<a href="https://www.discogs.com/user/jam847/collection">Discogs</a>
+
+<h3>CDs</h3>
+
+"""
+        total_album_count = 0
+        for artist in self.artists:
+            artist_html, artist_album_count = artist.to_html()
+            html += artist_html
+            total_album_count += artist_album_count
+        html += f"\n\n<p>Total Albums: {total_album_count}</p>"
+        return html

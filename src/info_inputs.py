@@ -1,10 +1,10 @@
 from date_class import str_to_date
 
-def get_artist_name():
-    return input("Artist Name: ")
+def get_artist_name(msg = "Artist Name: "):
+    return input(msg)
 
-def get_album_name():
-    return input("Album Name: ")
+def get_album_name(msg = "Album Name: "):
+    return input(msg)
 
 def get_date(msg:str):
     date = None
@@ -13,16 +13,16 @@ def get_date(msg:str):
         date = str_to_date(response)
     return date
 
-def get_album_release_date():
-    return get_date("Album Release Date (yyyy-mm-dd): ")
+def get_album_release_date(msg = "Album Release Date (yyyy-mm-dd): "):
+    return get_date(msg)
 
-def get_album_acquisition_date():
-    return get_date("Album Acquisition Date (yyyy-mm-dd): ")
+def get_album_acquisition_date(msg = "Album Acquisition Date (yyyy-mm-dd): "):
+    return get_date(msg)
 
-def get_discogs_id():
+def get_discogs_id(msg = "Discogs ID: "):
     valid = False
     while not valid:
-        response = input("Discogs ID: ")
+        response = input(msg)
         try:
             id = int(response)
             valid = True

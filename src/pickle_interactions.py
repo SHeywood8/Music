@@ -23,4 +23,5 @@ def clear_mdb(filepath: str):
     return 1
 
 if __name__ == "__main__":
-    print(os.getcwd())
+    #clear_mdb("data/mdb2.pkl")
+    pass

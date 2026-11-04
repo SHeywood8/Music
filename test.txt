@@ -1,0 +1,7 @@
+File path not found or not included. Using default file path.
+Music Database successfully loaded from: /home/sheridanh/Music/Git/Music/data/mdb.pkl
+
+Barns Courtney
+Future Palace
+Honey Revenge
+

@@ -13,11 +13,18 @@ class Date():
     def __repr__(self):
         string = str(self.year)
         if self.month != None:
-            string += '-' + str(self.month)
+            string += '-'
+            if len(str(self.month)) == 1:
+                string += '0'
+            string += str(self.month)
         else:
-            string += '-mm'
+            if self.day != None:
+                string += '-mm'
         if self.day != None:
-            string += '-' + str(self.day)
+            string += '-'
+            if len(str(self.day)) == 1:
+                string += '0'
+            string += str(self.day)
         return string
 
     def __eq__(self, other):
