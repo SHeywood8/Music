@@ -6,6 +6,7 @@ from add_entry import add_entry
 from delete_artist import delete_entry
 from print_mdb import print_mdb
 from query_mdb import query_mdb
+from update_readme import update_readme
 
 def main(filepath):
     while True:
@@ -17,6 +18,7 @@ ad, add - Add an entry to the Database.
 rm, remove - Remove an entry from the Database.
 pr, print - Print the full Database. Use `query` for more precision.
 qr, query - Find and edit an album entry.
+up, update - Update project README.md.
 
 end, '' - Exit this program.
 Help, ? - Show this list.
@@ -29,6 +31,8 @@ Help, ? - Show this list.
                 print_mdb(filepath)
             case "qr" | "query":
                 query_mdb(filepath)
+            case "up" | "update":
+                update_readme(filepath)
             case "end" | '':
                 return
             case _:

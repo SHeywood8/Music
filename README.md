@@ -143,9 +143,10 @@
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-35015000'>K-Pop Demon Hunters Soundtrack</a> (2025) <a href='https://www.discogs.com/release/35015000'>O</a></li>
 </ul></details>
-<details><summary>Katatonia</summary>
+<details><summary>Katatonia (2)</summary>
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-25827829'>Sky Void Of Stars</a> (2023) <a href='https://www.discogs.com/release/25827829'>O</a></li>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-34182697'>Nightmares As Extensions Of The Waking State</a> (2025) <a href='https://www.discogs.com/release/34182697'>O</a></li>
 </ul></details>
 <details><summary>Linkin Park</summary>
 <ul>
@@ -272,6 +273,10 @@
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-14255120'>Fandom</a> (2019) <a href='https://www.discogs.com/release/14255120'>O</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-37955334'>Jinx</a> (2026) <a href='https://www.discogs.com/release/37955334'>O</a></li>
 </ul></details>
+<details><summary>We Came As Romans</summary>
+<ul>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-34911434'>All Is Beautiful... Because We're Doomed</a> (2025) <a href='https://www.discogs.com/release/34911434'>O</a></li>
+</ul></details>
 <details><summary>Windwaker (2)</summary>
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-23469650'>Love Language</a> (2022) <a href='https://www.discogs.com/release/23469650'>O</a></li>
@@ -279,4 +284,4 @@
 </ul></details>
 
 
-<p>Total Albums: 111</p>
+<p>Total Albums: 113</p>
