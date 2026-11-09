@@ -9,6 +9,7 @@ def update_readme(filepath = ''):
     with open('README.md', 'w') as f:
         f.write(mdb.to_html())
         f.close()
+    print("README.md successfully updated.")
     return
 
 if __name__ == "__main__":

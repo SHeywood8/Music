@@ -50,7 +50,7 @@ class AlbumNode():
     def to_html(self):
         html = f"<a href='https://openscrobbler.com/scrobble/album/view/dsid/release-{self.discogs_id}'>"
         html += f"{self.name}</a> ({self.release_date.year}) "
-        html += f"<a href='https://www.discogs.com/release/{self.discogs_id}'>O</a>"
+        html += f"<a href='https://www.discogs.com/release/{self.discogs_id}'>🖸</a>"
         return html
 
     def __repr__(self):
@@ -134,6 +134,17 @@ class ArtistNode():
     def set_database(self, mdb:MusicDatabase):
         self.database = mdb
         return
+
+    def to_md_table(self):
+        artist_name = self.name
+        markdown = ''
+        for album in self.albums:
+            album:AlbumNode
+            markdown += f"|{artist_name}|{album.name}|{album.release_date}|{album.acquisition_date}"
+            markdown += f"|[{album.discogs_id}](https://openscrobbler.com/scrobble/album/view/dsid/release-{album.discogs_id})"
+            markdown += f"|[🖸](https://www.discogs.com/release/{album.discogs_id})|\n"
+        return markdown
+
 
 
 
@@ -230,3 +241,11 @@ class MusicDatabase():
             total_album_count += artist_album_count
         html += f"\n\n<p>Total Albums: {total_album_count}</p>"
         return html
+
+    def to_md_table(self):
+        markdown = """|Artist|Album|Release Date|Acquisition Date|OpenScrobbler Link|Discogs Link|
+|-----|-----|-----|-----|-----|-----|
+"""
+        for artist in self.artists:
+            markdown += artist.to_md_table()
+        return markdown
