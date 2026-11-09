@@ -30,8 +30,9 @@
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-24906086'>The Classic Symptoms Of A Broken Spirit</a> (2022) <a href='https://www.discogs.com/release/24906086'>O</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-33314421'>The Sky, The Earth & All Between</a> (2025) <a href='https://www.discogs.com/release/33314421'>O</a></li>
 </ul></details>
-<details><summary>As Everything Unfolds</summary>
+<details><summary>As Everything Unfolds (2)</summary>
 <ul>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-26850881'>Ultraviolet</a> (2023) <a href='https://www.discogs.com/release/26850881'>O</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-37035174'>Did You Ask To Be Set Free?</a> (2026) <a href='https://www.discogs.com/release/37035174'>O</a></li>
 </ul></details>
 <details><summary>Bad Omens (3)</summary>
@@ -107,8 +108,9 @@
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-28696609'>Chaser</a> (2023) <a href='https://www.discogs.com/release/28696609'>O</a></li>
 </ul></details>
-<details><summary>Future Palace</summary>
+<details><summary>Future Palace (2)</summary>
 <ul>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-31694993'>Distortion</a> (2025) <a href='https://www.discogs.com/release/31694993'>O</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-38050188'>Resurgence</a> (2026) <a href='https://www.discogs.com/release/38050188'>O</a></li>
 </ul></details>
 <details><summary>Ghøstkid (2)</summary>
@@ -273,8 +275,9 @@
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-14255120'>Fandom</a> (2019) <a href='https://www.discogs.com/release/14255120'>O</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-37955334'>Jinx</a> (2026) <a href='https://www.discogs.com/release/37955334'>O</a></li>
 </ul></details>
-<details><summary>We Came As Romans</summary>
+<details><summary>We Came As Romans (2)</summary>
 <ul>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-24911876'>Darkbloom</a> (2022) <a href='https://www.discogs.com/release/24911876'>O</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-34911434'>All Is Beautiful... Because We're Doomed</a> (2025) <a href='https://www.discogs.com/release/34911434'>O</a></li>
 </ul></details>
 <details><summary>Windwaker (2)</summary>
@@ -284,4 +287,4 @@
 </ul></details>
 
 
-<p>Total Albums: 113</p>
+<p>Total Albums: 116</p>
