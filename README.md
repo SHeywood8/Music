@@ -6,7 +6,7 @@
 
 <a href="https://openscrobbler.com/">OpenScrobbler</a>
 
-<a href="https://www.discogs.com/user/jam847/collection">Discogs</a>
+<a href="https://www.discogs.com/user/jam847/collection">Discogs (🖸)</a>
 
 <h3>CDs</h3>
 
@@ -223,7 +223,7 @@
 <ul>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-34897850'>Let's Cheers To This</a> (2011) <a href='https://www.discogs.com/release/34897850'>🖸</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-12417414'>Madness</a> (2015) <a href='https://www.discogs.com/release/12417414'>🖸</a></li>
-<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-24845068'>Complete Collapse</a> (2022) <a href='https://www.discogs.com/release/24845068'>🖸</a></li>
+<li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-24825068'>Complete Collapse</a> (2022) <a href='https://www.discogs.com/release/24825068'>🖸</a></li>
 <li><a href='https://openscrobbler.com/scrobble/album/view/dsid/release-37613529'>An Ending In Itself</a> (2026) <a href='https://www.discogs.com/release/37613529'>🖸</a></li>
 </ul></details>
 <details><summary>Stand Atlantic (3)</summary>

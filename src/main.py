@@ -3,7 +3,7 @@ import pickle_interactions as pkl
 import info_inputs as inp
 
 from add_entry import add_entry
-from delete_artist import delete_entry
+from delete_entry import delete_entry
 from print_mdb import print_mdb
 from query_mdb import query_mdb
 from update_readme import update_readme
@@ -21,7 +21,6 @@ pr, print - Print the full Database. Use `query` for more precision.
 qr, query - Find and edit an album entry.
 up, update - Update project README.md.
 ta, table - Generate album table.
-
 end, '' - Exit this program.
 Help, ? - Show this list.
 ===Command List===""")
